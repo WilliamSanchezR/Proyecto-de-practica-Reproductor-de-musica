@@ -1,0 +1,33 @@
+/* ===== CONTROLES DEL REPRODUCTOR ===== */
+.player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 1.5rem;
+}
+
+.player-controls button {
+    background: #70311f;
+    border: none;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: inset 6px 6px 10px rgba(0, 0, 0, 0.4),
+                inset -4px -4px 8px rgba(255, 255, 255, 0.05);
+}
+
+.player-controls button.play {
+    width: 70px;
+    height: 70px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4),
+                -4px -4px 10px rgba(255, 255, 255, 0.05);
+}
+
+.player-controls button:hover {
+    transform: scale(1.05);
+}
