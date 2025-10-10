@@ -196,7 +196,7 @@
     background: #a63730;
     color: #fff;
     transition: right 0.4s ease;
-    padding: 25px 20px;
+    padding: 20px 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -231,20 +231,67 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    }
 
-    .menu-links li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    transition: color 0.3s ease, transform 0.2s ease;
     }
 
     .menu-links li a:hover {
     color: #ffd2cf;
     transform: translateX(6px);
+    }
+
+    .menu-links li img{
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .menu-links li {
+        border-radius: 10px;
+        background: #120e2d;
+        padding: 6px;
+        position: relative;
+        margin: 5px 0 0 0;
+    }
+
+    .menu-links li h2 {
+        font-size: 12px;
+        font-weight: 600;
+        position: absolute;
+        top: 8px;
+        left: 56px;
+        width: 140px;
+    }
+
+    .menu-links li h3 {
+        font-size: 8px;
+        font-weight: 200;
+        position: absolute;
+        top: 24px;
+        left: 54px;
+    }
+
+    .menu-links li button {
+        font-size: 26px;
+        position: absolute;
+        background: #a63730;
+        border-radius: 50%;
+        right: 10px;
+        top: 10%;
+        cursor: pointer;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+    .menu-links li button:hover {
+        transform: scale(1.05);
+    }
+
+    .menu-links li i {
+        color: #120e2d;
+    }
+
+    .menu-links li i:hover {
+        color: #9e97ce;
     }
 
     /* ======== RESPONSIVE ======== */
