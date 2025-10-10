@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "nombre": "Jeremías 17-5",
+    "artista": "Canserbero",
+    "duracion": "05:26",
+    "caratula": "img/caratulas/canserbero_jeremias_17_5.png",
+    "cancion": "mp3/Canserbero_Jeremias_17_5.mp3"
+  },
+  {
+    "id": 2,
+    "nombre": "Rap God",
+    "artista": "Eminem",
+    "duracion": "06:09",
+    "caratula": "img/caratulas/eminem_rap_god.png",
+    "cancion": "mp3/Eminem_Rap_God.mp3"
+  },
+  {
+    "id": 3,
+    "nombre": "Till I Collapse",
+    "artista": "Eminem",
+    "duracion": "04:58",
+    "caratula": "img/caratulas/eminem_till_i_collapse.png",
+    "cancion": "mp3/Eminem_Till_I_Collapse.mp3"
+  },
+  {
+    "id": 4,
+    "nombre": "Clint Eastwood",
+    "artista": "Gorillaz",
+    "duracion": "04:27",
+    "caratula": "img/caratulas/gorillaz_clint_eastwood.png",
+    "cancion": "mp3/Gorillaz_Clint_Eastwood.mp3"
+  },
+  {
+    "id": 5,
+    "nombre": "Feel Good Inc.",
+    "artista": "Gorillaz",
+    "duracion": "04:15",
+    "caratula": "img/caratulas/gorillaz_feel_good_inc.png",
+    "cancion": "mp3/Gorillaz_Feel_Good_inc.mp3"
+  },
+  {
+    "id": 6,
+    "nombre": "Welcome To The Jungle",
+    "artista": "Guns N' Roses",
+    "duracion": "04:39",
+    "caratula": "img/caratulas/guns_n_roses_welcome_to_the_jungle.png",
+    "cancion": "mp3/Guns_N'_Roses_Welcome_To_The_Jungle.mp3"
+  },
+  {
+    "id": 7,
+    "nombre": "I Was Made For Lovin' You",
+    "artista": "Kiss",
+    "duracion": "03:58",
+    "caratula": "img/caratulas/kiss_i_was_made_for_lovin_you.jpeg",
+    "cancion": "mp3/Kiss_I_Was_Made_For_Lovin_You.mp3"
+  },
+  {
+    "id": 8,
+    "nombre": "Another One Bites the Dust",
+    "artista": "Queen",
+    "duracion": "03:42",
+    "caratula": "img/caratulas/queen_another_one_bites_the_dust.png",
+    "cancion": "mp3/Queen_Another_One_Bites_The_Dust.mp3"
+  },
+  {
+    "id": 9,
+    "nombre": "Bohemian Rhapsody",
+    "artista": "Queen",
+    "duracion": "05:59",
+    "caratula": "img/caratulas/queen_bohemian_rhapsody.png",
+    "cancion": "mp3/Queen_Bohemian_Rhapsody.mp3"
+  },
+  {
+    "id": 10,
+    "nombre": "Creep",
+    "artista": "Radiohead",
+    "duracion": "03:56",
+    "caratula": "img/caratulas/radiohead_creep.jpeg",
+    "cancion": "mp3/Radiohead_Creep.mp3"
+  },
+  {
+    "id": 11,
+    "nombre": "Zombie",
+    "artista": "The Cranberries",
+    "duracion": "05:07",
+    "caratula": "img/caratulas/the_cranberries_zombie.jpg",
+    "cancion": "mp3/The_Cranberries_Zombie.mp3"
+  }
+]

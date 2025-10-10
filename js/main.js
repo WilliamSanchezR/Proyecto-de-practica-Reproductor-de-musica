@@ -9,13 +9,3 @@ menuBtn.addEventListener('click', () => {
 closeMenu.addEventListener('click', () => {
     sideMenu.classList.remove('active');
 });
-// controles del reproductor
-const playBtn = document.querySelector('.play');
-let isPlaying = false;
-
-playBtn.addEventListener('click', () => {
-    isPlaying = !isPlaying;
-    playBtn.innerHTML = isPlaying
-        ? '<i class="bi bi-pause-fill"></i>'
-        : '<i class="bi bi-play-fill"></i>';
-});
