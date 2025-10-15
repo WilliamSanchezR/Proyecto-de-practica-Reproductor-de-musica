@@ -29,27 +29,8 @@ body {
   overflow: hidden;
 }
 
-/* ======== EFECTO DE LUZ DE FONDO ======== */
-.container-2::before {
-  content: "";
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(255, 170, 170, 0.8), transparent 70%);
-  top: -180px;
-  left: -160px;
-  filter: blur(120px);
-  opacity: 0.7;
-  animation: floatGlow 6s ease-in-out infinite alternate;
-  z-index: 0;
-}
 
-@keyframes floatGlow {
-  0% { transform: translateY(0); opacity: 0.7; }
-  100% { transform: translateY(50px); opacity: 0.4; }
-}
 
-/* ======== ICONO DE AUDÍFONOS (mejorado) ======== */
 header {
   margin-top: 100px;
   position: relative;
@@ -95,13 +76,11 @@ header {
   right: -25px;
 }
 
-/* ======== ANIMACIÓN DE LATIDO ======== */
 @keyframes pulse {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.07); }
 }
 
-/* ======== CONTENIDO ======== */
 .content {
   text-align: center;
   color: #fff;
